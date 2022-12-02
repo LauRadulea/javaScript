@@ -1,0 +1,98 @@
+JavaScript 1  
+
+1.  Name the three ways to declare a variable? 
+	var, let, const.
+2.  Which of the three variable declarations should you avoid and why? 
+	const, bc it can't be reassigned; doing so willl cause an error.
+3.  What rules should you follow when naming variables? 
+	concice, obvious and descriptive naming, the name must contain only letters, digits, or the symbols $ and _
+	with the first character not being a digit, not use reserved words, use camelCase.
+4.  What should you look out for when using the + operator with numbers and strings? 
+	it will concatenate the numbers to the string
+5.  How does the % operator work? 
+	retuns the reminder of the division of the operands
+6.  Explain the difference between == and ===. 
+	operands of different types are converted to numbers by the equality operator ==
+	while operator === checks the equality without type conversion.
+7.  When would you receive a NaN result?
+	NaN represents a computational error. It is a result of an incorrect or an undefined
+	mathematical operation 
+8.  How do you increment and decrement a number? 
+	++ --
+9.  Explain the difference between prefixing and post-fixing increment/decrement operators. 
+	when placed before it will retunr he incremented/decremented value, when placed after it,
+	will return the original value then increments/decrements the operand
+10. What is operator precedence and how is it handled in JS? 
+	Operator precedence describes the order in which operations are performed in an arithmetic expression.
+	As in traditional mathematics, multiplication is done first.
+	When using parentheses, operations inside the parentheses are computed first
+	Operations with the same precedence (like * and /) are computed from left to right
+11. How do you log information to the console?
+	console.log() 
+12. What does unary plus operator do to string representations of integers? 
+	it joins them
+13. What are the eight data types in JavaScript? 
+	numbers, booleans, strings, symbols, bigint, objects, functions, undefined
+14. Which data type is NOT primitive? 
+	object
+15. What is the relationship between null and undefined? 
+	null= empty, undefined= doesn't exist so equal but not identical
+16. What is the difference between single, double, and backtick quotes for strings? 
+	For single and duble quotes, using one to wrap the string with, will allow the use of the other a part pf the string
+	backticks allow embedding values of variables in the displey of a string
+17. What is the term for embedding variables/expressions in a string? 
+	extended functionality quotes
+18. Which type of quote lets you embed variables/expressions in a string? 
+	 ${}
+19. How do you embed variables/expressions in a string? 
+	`${}`
+20. How do you escape characters in a string? 
+	with backslash
+21. What is the difference between the slice/substring/substr string methods? 
+	slice() extracts parts of a string and returns the extracted parts in a new string. 
+	substr() extracts parts of a string, beginning at the character at the specified position, 
+	and returns the specified number of characters. substring() extracts parts of a string 
+	and returns the extracted parts in a new string.
+22. What are the three logical operators and what do they stand for? 
+	|| or true- if one operand is true, && and true if both operands are true,
+	! not changes true to fals and fals to true
+23. What are the comparison operators? 
+	>,<, >=, <=, ==,!=, ===, !==
+24. What are truthy and falsy values? 
+	these are the values that evaluateted in boolean contex are true or fals
+25. What are the falsy values in JavaScript? 
+	0, undefined, null, nan, empty string, fals
+26. What are conditionals? 
+	are blocks of code that execute only if the condition expresion/s evaluate to true.
+27. What is the syntax for an if/else conditional? 
+	if (condition) {
+	block of code
+	} else {
+	}
+28. What is the syntax for a switch statement? 
+	switch(expression) {
+	  case x:
+	    code block
+ 	   break;
+	  case y:
+	    code block
+	    break;
+	  default:
+	    code block
+	}
+29. What is the syntax for a ternary operator? 
+	condition ? exprIfTrue : exprIfFalse
+30. What is nesting? 
+	writing something inside something
+31. What are functions useful for? 
+	reusing code
+32. How do you invoke a function? 
+	functionName();
+33. What are anonymous functions? 
+	a function without a name that returns a function object and  so is useful to assign it to a varable
+34. What is function scope? 
+	variables created in a function can not be accesed from outside that function
+35. What are return values? 
+	the values that a function retuns when it completes
+36. What are arrow functions? 
+	a compact alternative to a traditional function expression
